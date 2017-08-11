@@ -1,0 +1,25 @@
+{
+  "name": "apirestful",
+  "version": "1.0.0",
+  "description": "API RESTFul con NodeJS, Express y MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo López (http://smartsystem.mx)",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "crypto": "0.0.3",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
