@@ -4,7 +4,7 @@ const connect = require('../connections/mysql')
 
 let UserModel = {}
 
-UserModel.getModelUsers = (callback) => {
+UserModel.getUsersModel = (callback) => {
     if (connect){
 
         const sql = 'SELECT * FROM users'
@@ -20,7 +20,7 @@ UserModel.getModelUsers = (callback) => {
     }
 }
 
-UserModel.insertModelUser = (data, cb) => {
+UserModel.insertUserModel = (data, cb) => {
     connect.query('INSERT INTO users SET ?', data, cb)
 }
 
